@@ -1,0 +1,87 @@
+ 
+
+body {
+    font-family: 'Trebuchet MS';
+    color: #404040;
+    display: flex;
+    height: 100vh; 
+    /* viewport height */
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://i.pinimg.com/564x/16/e8/75/16e87513038b67d1f510d03e6d21b7d5.jpg);
+    background-size: cover;
+    background-position: 50%;
+    padding: 10px;
+}
+
+form {
+    /* flex child do body */
+    background-color: #fafafa;
+    padding: 50px;
+    border-radius: 30px;
+
+    /* flex container */
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+h1 {
+    margin: 0px;
+    font-size: 24px;
+}
+
+.barra-horizontal {
+    background-color: #f87842;
+    height: 5px;
+    width: 150px;
+}
+
+input {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #f1f1f1;
+}
+
+.campo-input {
+    /* flex container */
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.lembrar-me {
+    /* flex container */
+    display: flex;
+    gap: 5px;
+}
+
+button {
+    padding: 10px;
+    align-self: center;
+    width: 160px;
+    border-radius: 30px;
+    background-image: linear-gradient(#256a8a,#3393c1);
+    border: solid 1px #256a8a;
+    border-right-width: 4px;
+    border-bottom-width: 4px;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.esqueceu-senha {
+    text-align: center;
+}
+
+a {
+    color: #0059ff;
+}
